@@ -1,0 +1,26 @@
+{
+  "name": "Dev-House",
+  "version": "1.0.0",
+  "description": "Developers from Myanmar and build Dev-House on Internet :)",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "main": "app.js",
+  "repository": "https://github.com/nayyaung9/dev-house.git",
+  "author": "nayyaung9 <naygit.developer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
+  }
+}
