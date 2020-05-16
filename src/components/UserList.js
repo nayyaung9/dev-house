@@ -54,7 +54,7 @@ const UserList = {
               <div class="content">
                 <img class="right floated mini ui image" src=${profile} style="width: 60px" />
                 <div class="header">
-                  <a href="/#/user" class="href"><u>${name}</u></a> ${emoji} <br />
+                  <u>${name}</u> ${emoji} <br />
                   <span>${userUrl}<span>
                 </div>
                 <div class="description" style="padding-bottom: 15px;">
@@ -67,7 +67,7 @@ const UserList = {
                 <div class="device_column">${renderLaptop(computer)}</div>
                 <div class="device_column">${renderPhone(phone)}</div>
                 <div class="device_column">
-                  <a href=${githubProfile} target="_blank">${github}</a>
+                  <a href=${githubProfile} target="_blank" style="font-size: 20px; color: #b8c1ec;"><u>@${github}</u></a>
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: 'Nay Yaung Lin Lakk',
-    description: 'Fullstack Dev, Student, A Nunchaku player',
+    description: 'Student, MERN Stack, A Nunchaku Player, started learning web technologies at age 13 :)',
     url: 'https://nayyaung9.github.io',
     github: 'nayyaung9',
     emoji: '😎',
@@ -18,26 +18,6 @@ module.exports = [
       'JavaScript',
       'Redux',
       'Mongo',
-    ],
-  },
-  {
-    name: 'Nay Yaung Lin Lakk',
-    description: 'Fullstack Dev, Student',
-    url: 'https://nayyaung9.github.io',
-    github: 'thukyaw11',
-    emoji: '🎿',
-    computer: 'linux',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Web',
-      'React',
-      'Next',
-      'Gatsby',
-      'Linux',
-      'Redux',
-      'Vuetify',
     ],
   },
 ];

@@ -40,7 +40,7 @@ h2 {
   padding-bottom: 50px;
 }
 .description p {
-  font-size: 22px;
+  font-size: 20px;
 }
 .href {
   color: #fff;
@@ -78,7 +78,7 @@ h2 {
 }
 
 .footer {
-  margin-top: 20px;
+  margin: 50px 0 20px 0;
   text-align: center;
   font-size: 22px;
 }
