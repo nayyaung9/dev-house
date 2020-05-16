@@ -1,10 +1,10 @@
-// views
-import * as base from './views/base'
-import * as homeView from './views/homeView';
+import * as HashRouter from './router';
 
-/*
-  / We call UI Render function right here after Web page is loaded
-*/
-window.addEventListener('load', () => {
-  homeView.renderHome();
-});
+// Views
+import { Index } from './views/homeView';
+
+const routes = [
+  { path: "/", component: Index }
+];
+
+HashRouter.Route(routes);

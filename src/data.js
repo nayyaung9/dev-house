@@ -5,7 +5,6 @@ module.exports = [
     url: 'https://nayyaung9.github.io',
     twitter: '@LakkNay',
     emoji: '😎',
-    country: '🇫🇷',
     computer: 'dell',
     phone: 'redmi',
     tags: [
@@ -27,7 +26,6 @@ module.exports = [
     url: 'https://nayyaung9.github.io',
     twitter: '@LakkNay',
     emoji: '🎿',
-    country: '🇫🇷',
     computer: 'dell',
     phone: 'redmi',
     tags: [
@@ -48,7 +46,6 @@ module.exports = [
     url: 'https://nayyaung9.github.io',
     twitter: '@LakkNay',
     emoji: '🎿',
-    country: '🇫🇷',
     computer: 'dell',
     phone: 'redmi',
     tags: [
@@ -69,7 +66,6 @@ module.exports = [
     url: 'https://nayyaung9.github.io',
     twitter: '@LakkNay',
     emoji: '🎿',
-    country: '🇫🇷',
     computer: 'dell',
     phone: 'redmi',
     tags: [
