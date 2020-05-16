@@ -1,10 +1,12 @@
 import * as HashRouter from './router';
 
 // Views
-import { Index } from './views/homeView';
+import HomeView from './views/homeView';
+import PersonView from './views/personView';
 
 const routes = [
-  { path: "/", component: Index }
+  { path: "/", component: HomeView },
+  { path: "/user", component: PersonView }
 ];
 
 HashRouter.Route(routes);

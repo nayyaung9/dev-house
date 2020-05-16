@@ -40,3 +40,10 @@ h2 {
 .description p {
   font-size: 22px;
 }
+.href {
+  color: #fff;
+  text-decoration: none;
+}
+.href:hover {
+  color: #b8c1ec;
+}
