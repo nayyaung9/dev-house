@@ -1,25 +1,49 @@
 import { elements } from './base';
 import data from '../data';
 import * as utils from '../utils/stats';
+import axios from 'axios';
 
 export const renderHome = () => {
-  const users = data.map((item, index) => {
-    return `<li>${item.name}</li>`;
-  });
 
   const tags = utils.tags().map((resultTags) => {
-    return `<a class="ui image label" style="background-color: #b8c1ec; ">${resultTags.name}</a>`;
+    return `<a class="ui large label">${resultTags.name}</a>`;
   });
+
+  const users = data.map(({ name, description }) => {
+    return `
+      <div class="column">
+        <div class="ui cards">
+          <div class="card">
+            <div class="content">
+              <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg" />
+              <div class="header">
+                ${name}
+              </div>
+              <div class="meta">
+                ${description}
+              </div>
+              <div class="description">
+                Elliot requested permission to view your contact details
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
+  });
+
 
   const markup = `
     <div class="ui container">
-      Myanmar Dev-House
-      <br />
- 
-      ${tags.join("")}
-
+      <h2 class="ui center aligned icon header">
+        <i class="connectdevelop icon"></i>
+        Myanmar Dev-House
+      </h2>
+      <div class="tags_panel">${tags.join("")}</div>
      
-      <ul>${users.join("")}</ul>
+      <div class="ui four column grid">
+        <div class="row">${users.join("")}</div>
+      </div>
     </div>
   `;
 

@@ -1,4 +1,5 @@
 import data from '../data';
+import axios from 'axios';
 
 function merge(prop) {
   return function (acc, obj) {
@@ -18,7 +19,7 @@ export const tags = () => {
   const tags = Object.entries(counts)
     .sort(([, countA], [, countB]) => countB - countA)
     // Only show the tag if this topic has 3 or more people in it
-    .filter(([, count]) => count >= 3)
+    .filter(([, count]) => count >= 1)
     .map(([name, count]) => ({ name, count }));
   return [{ name: 'all', count: data.length }, ...tags];
 }

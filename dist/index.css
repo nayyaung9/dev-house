@@ -2,3 +2,26 @@ body {
   background-color: #232946;
   color: #b8c1ec;
 }
+h2 {
+  color: #fff !important;
+  margin: 40px auto !important;
+}
+i {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.label, .card {
+  background-color: #b8c1ec !important;
+}
+.tags_panel {
+  margin: 10px auto;
+}
+.grid {
+  margin-top: 20px !important;
+}
+.meta {
+  color: #232946 !important;
+}
