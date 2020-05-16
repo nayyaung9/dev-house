@@ -36,7 +36,9 @@ h2 {
 .header, .description {
   color: #fff !important;
 }
-
+.meta {
+  padding-bottom: 50px;
+}
 .description p {
   font-size: 22px;
 }
@@ -56,3 +58,21 @@ h2 {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.devices_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  border-top: #b8c1ec;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.devices {
+  width: 70px;
+}
+
+.four {
+  height: 100% !important;
+}
