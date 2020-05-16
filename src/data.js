@@ -20,4 +20,25 @@ module.exports = [
       'Mongo',
     ],
   },
+  {
+    name: 'Min Thu Kyaw',
+    description: 'Student, Biker',
+    url: 'https://nayyaung9.github.io',
+    github: 'thukyaw``',
+    emoji: '😎',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Vue',
+      'Vuex',
+      'Nuxt',
+      'Php',
+      'JavaScript',
+      'Laravel',
+      'mysql',
+      'c++'
+    ],
+  },
 ];
