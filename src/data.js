@@ -11,13 +11,14 @@ module.exports = [
     tags: [
       'Developer',
       'Full Stack',
-      'Web',
+      'Node',
       'React',
+      'React Native',
       'Next',
       'Gatsby',
       'JavaScript',
       'Redux',
-      'Vuetify',
+      'Mongo',
     ],
   },
   {
