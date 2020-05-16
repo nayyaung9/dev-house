@@ -19,6 +19,13 @@ h2 {
 .card > * {
   color: #b8c1ec !important;
 }
+.header {
+  padding: 10px 0 10px 0;
+}
+.user_url {
+  font-style: italic;
+  font-size: 16px;
+}
 .tags_panel {
   margin: 15px;
 }
@@ -28,4 +35,8 @@ h2 {
 
 .header, .description {
   color: #fff !important;
+}
+
+.description p {
+  font-size: 22px;
 }

@@ -1,10 +1,10 @@
 module.exports = [
   {
     name: 'Nay Yaung Lin Lakk',
-    description: 'Fullstack Dev, Student',
+    description: 'Fullstack Dev, Student, A Nunchaku player',
     url: 'https://nayyaung9.github.io',
     twitter: '@LakkNay',
-    emoji: '🎿',
+    emoji: '😎',
     country: '🇫🇷',
     computer: 'dell',
     phone: 'redmi',

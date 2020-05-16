@@ -8,9 +8,16 @@ export const renderHome = () => {
     return `<a class="ui large label" style="margin-top: 5px;">${resultTags.name}</a>`;
   });
 
-  const users = data.map(({ name, emoji, twitter, tags, description }) => {
+  const users = data.map(({
+    name,
+    emoji,
+    url,
+    twitter,
+    tags,
+    description 
+  }) => {
     const profile = `https://unavatar.now.sh/twitter/${twitter}`;
-   
+    const userUrl = `<a href=${url} target="_blank" class="user_url">${url}</a>`;
     const renderTags = tags => {
       var i, text = "";
       for (i = 0; i < tags.length; i++) {
@@ -24,17 +31,20 @@ export const renderHome = () => {
         <div class="ui cards">
           <div class="card" style="width: 100% !important;">
             <div class="content">
-              <img class="right floated mini ui image" src=${profile} />
+              <img class="right floated mini ui image" src=${profile} style="width: 50px" />
               <div class="header">
-                ${name} ${emoji}
+                ${name} ${emoji} <br />
+                <span>${userUrl}<span>
+              </div>
+              <div class="description" style="padding-bottom: 15px;">
+                <p>${description}</p>
               </div>
               <div class="meta">${renderTags(tags)}</div>
-              <div class="description">${description}</div>
             </div>
           </div>
         </div>
       </div>
-      `;
+    `;
   });
 
 
@@ -46,8 +56,6 @@ export const renderHome = () => {
       </h2>
       <div class="tags_panel">${tags.join("")}</div>
       <div class="ui grid stackable">
-        
-     
         ${users.join("")}
       </div>
     </div>
