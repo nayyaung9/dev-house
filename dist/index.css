@@ -6,6 +6,10 @@ h2 {
   color: #fff !important;
   margin: 40px auto !important;
 }
+.ui.grid {
+  margin: 0;
+  width: 100%;
+}
 .label {
   background-color: #b8c1ec !important;
 }
@@ -16,8 +20,12 @@ h2 {
   color: #b8c1ec !important;
 }
 .tags_panel {
-  margin: 10px auto;
+  margin: 15px;
 }
 .grid {
   margin-top: 20px !important;
+}
+
+.header, .description {
+  color: #fff !important;
 }
