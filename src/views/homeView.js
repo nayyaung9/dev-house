@@ -9,7 +9,7 @@ export const renderHome = () => {
     return `<a class="ui large label">${resultTags.name}</a>`;
   });
 
-  const users = data.map(({ name, description }) => {
+  const users = data.map(({ name, emoji, description }) => {
     return `
       <div class="column">
         <div class="ui cards">
@@ -17,7 +17,7 @@ export const renderHome = () => {
             <div class="content">
               <img class="right floated mini ui image" src="/images/avatar/large/elliot.jpg" />
               <div class="header">
-                ${name}
+                ${name} ${emoji}
               </div>
               <div class="meta">
                 ${description}
