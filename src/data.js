@@ -48,7 +48,7 @@ module.exports = [
     github: 'ShoonLeiNaing',
     emoji: '🙇‍',
     computer: 'windows',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'back-end',
@@ -58,24 +58,42 @@ module.exports = [
 
     ],
   },
-   {
-        name: 'Pyae Sone Khant',
-        description: 'Student',
-        url: 'https://zeroboycoder.github.io/',
-        github: 'zeroboycoder',
-        emoji: '🤠',
-        computer: 'linux',
-        phone: 'android',
-        tags: [
-            'Developer',
-            'Full Stack',
-            'JavaScript',
-            'Node',
-            'Express',
-            'React',
-            'Mongo',
-            'mysql'
-        ],
-    },
+  {
+    name: 'Pyae Sone Khant',
+    description: 'Student',
+    url: 'https://zeroboycoder.github.io/',
+    github: 'zeroboycoder',
+    emoji: '🤠',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Node',
+      'Express',
+      'React',
+      'Mongo',
+      'mysql'
+    ],
+  },
+  {
+    name: 'Nine_Ball',
+    description: 'Software Engineer',
+    url: 'https://github.com/Nine-Ball9',
+    github: 'Nine-Ball9',
+    emoji: '👩‍💻',
+    computer: 'mac',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Frontend',
+      'React',
+      'React Native',
+      'Laravel',
+      'JavaScript',
+      'Python',
+    ],
+  },
 ];
 
