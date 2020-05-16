@@ -2,6 +2,7 @@
 import Header from '../components/Header';
 import TagList from '../components/TagList';
 import UserList from '../components/UserList';
+import Footer from '../components/Footer';
 
 const HomeView = {
   render: () => {
@@ -13,6 +14,8 @@ const HomeView = {
             ${UserList.render()}
           </div>
         </div>
+        ${Footer.render()}
+      </div>
       `;
     }
 };

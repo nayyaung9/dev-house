@@ -76,3 +76,17 @@ h2 {
 .four {
   height: 100% !important;
 }
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.footer a, .footer span,.footer b {
+  color: #eebbc3;
+}
+
+.footer a {
+  text-decoration: underline;
+}
