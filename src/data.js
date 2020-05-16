@@ -23,7 +23,7 @@ module.exports = [
   {
     name: 'Min Thu Kyaw',
     description: 'Student, Biker',
-    url: 'https://nayyaung9.github.io',
+    url: 'https://thukyaw11.github.io',
     github: 'thukyaw11',
     emoji: '🔥',
     computer: 'linux',
