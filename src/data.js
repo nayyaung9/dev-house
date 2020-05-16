@@ -41,4 +41,21 @@ module.exports = [
       'c++'
     ],
   },
+    {
+    name: 'Shoon Lei Naing',
+    description: 'Student from UIT',
+    url: '',
+    github: 'ShoonLeiNaing',
+    emoji: '🙇‍',
+    computer: 'windows',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'back-end',
+      'Python',
+      'C++',
+      'JavaScript'
+
+    ],
+  }
 ];
