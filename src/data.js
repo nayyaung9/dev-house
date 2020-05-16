@@ -41,7 +41,7 @@ module.exports = [
       'c++'
     ],
   },
-    {
+  {
     name: 'Shoon Lei Naing',
     description: 'Student from UIT',
     url: '',
@@ -57,5 +57,25 @@ module.exports = [
       'JavaScript'
 
     ],
-  }
+  },
+   {
+        name: 'Pyae Sone Khant',
+        description: 'Student',
+        url: 'https://zeroboycoder.github.io/',
+        github: 'zeroboycoder',
+        emoji: '🤠',
+        computer: 'linux',
+        phone: 'android',
+        tags: [
+            'Developer',
+            'Full Stack',
+            'JavaScript',
+            'Node',
+            'Express',
+            'React',
+            'Mongo',
+            'mysql'
+        ],
+    },
 ];
+
