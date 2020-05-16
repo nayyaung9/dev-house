@@ -25,7 +25,7 @@ module.exports = [
     description: 'Student, Biker',
     url: 'https://nayyaung9.github.io',
     github: 'thukyaw11',
-    emoji: '😎',
+    emoji: '🔥',
     computer: 'linux',
     phone: 'android',
     tags: [
