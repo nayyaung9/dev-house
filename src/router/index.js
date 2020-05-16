@@ -2,6 +2,7 @@
   ~ This is Our JavaScript Custom Router
   ~ Feel free to use
 */
+import ErrorPage from '../views/ErrorPage';
 
 export function Route(routes) {
   const parseLocation = hash => hash.slice(1).toLowerCase() || "/";
@@ -11,7 +12,7 @@ export function Route(routes) {
   
   const router = () => {
     const path = parseLocation(document.location.hash);
-    const { component = ErrorComponent } =
+    const { component = ErrorPage } =
       findComponentByPath(path, routes) || {};
     document.getElementById("root").innerHTML = component.render();
   };

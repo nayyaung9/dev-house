@@ -6,11 +6,11 @@ const UserList = {
       name,
       emoji,
       url,
-      twitter,
+      github,
       tags,
       description
     }) => {
-      const profile = `https://unavatar.now.sh/twitter/${twitter}`;
+      const profile = `https://unavatar.now.sh/github/${github}`;
       const userUrl = `<a href=${url} target="_blank" class="user_url">${url}</a>`;
       const renderTags = tags => {
         var i, text = "";
@@ -25,7 +25,7 @@ const UserList = {
           <div class="ui cards">
             <div class="card" style="width: 100% !important;">
               <div class="content">
-                <img class="right floated mini ui image" src=${profile} style="width: 50px" />
+                <img class="right floated mini ui image" src=${profile} style="width: 60px" />
                 <div class="header">
                   <a href="/#/user" class="href"><u>${name}</u></a> ${emoji} <br />
                   <span>${userUrl}<span>
