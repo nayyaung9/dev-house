@@ -83,7 +83,7 @@ module.exports = [
     url: 'https://github.com/Nine-Ball9',
     github: 'Nine-Ball9',
     emoji: '👩‍💻',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Developer',
