@@ -95,5 +95,22 @@ module.exports = [
       'Python',
     ],
   },
+  {
+    name: 'PosaLusa24',
+    description: 'UIT Student, Hobbyist Dev',
+    url: 'https://posalusa24.github.io',
+    github: 'PosaLusa24',
+    emoji: '🥺',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Backend',
+      'Linux Kernel',
+      'C++',
+      'Python',
+      'Node',
+      'Weeb',
+    ],
+  },
 ];
 
