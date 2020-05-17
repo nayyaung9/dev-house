@@ -168,7 +168,8 @@ module.exports = [
             "Python",
             "C",
             "Machine Learning",
-            "PostgreSQL"
+            "PostgreSQL",
+            "SwiftUI",
         ],
     },
 ];
