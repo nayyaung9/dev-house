@@ -152,5 +152,24 @@ module.exports = [
             "Python",
         ],
     },
+    {
+        name: "Htoo Aung Lynn(Chester)",
+        description: "Student from MIIT",
+        url: "https://github.com/halchester",
+        github: "halchester",
+        emoji: "😴",
+        computer: "apple",
+        phone: "iphone",
+        tags: [
+            "Frontend",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Python",
+            "C",
+            "Machine Learning",
+            "PostgreSQL"
+        ],
+    },
 ];
 
