@@ -172,5 +172,23 @@ module.exports = [
             "SwiftUI",
         ],
     },
+    {
+      name: "La Wun Nannda",
+      description: "student from YTU",
+      url: "https://github.com/lawun330",
+      github: "lawun330",
+      emoji: "😗",
+      computer: "windows",
+      phone: "android",
+      tags: [
+            "C++",
+            "Python",
+            "Machine Learning",
+            "OpenCV",
+            "Arduino",
+            "Tensor Flow",
+            "Octave",
+        ],
+    },
 ];
 
