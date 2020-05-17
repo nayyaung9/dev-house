@@ -95,5 +95,23 @@ module.exports = [
       'Python',
     ],
   },
+{
+    name: 'Min Kaung Kyaw',
+    description: 'Student',
+    url: 'https://github.com/mwebeducation',
+    github: 'mwebeducation',
+    emoji: '',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'MernStack',
+      'React',
+      'React Native',
+      'Flutter',
+      'JavaScript',
+      'Python',
+    ],
+  },
 ];
 
