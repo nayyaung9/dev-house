@@ -38,7 +38,7 @@ module.exports = [
       'JavaScript',
       'Laravel',
       'mysql',
-      'c++'
+      'C++'
     ],
   },
   {
