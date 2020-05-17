@@ -113,5 +113,27 @@ module.exports = [
       'Python',
     ],
   },
+  {
+        name: "Hein Thanth",
+        description: "Full stack Web Developer",
+        url: "https://heinthanth.com",
+        github: "heinthanth",
+        emoji: "👨<200d>💻",
+        computer: "linux",
+        phone: "android",
+        tags: [
+            "Full Stack",
+            "Developer",
+            "PHP",
+            "Laravel",
+            "JavaScript",
+            "Node",
+            "React",
+            "Mongo",
+            "MySQL",
+            "C++",
+            "Python",
+        ],
+    },
 ];
 
