@@ -190,5 +190,20 @@ module.exports = [
             "Octave",
         ],
     },
+{
+      name: "PhoneMyat Pyae Sone",
+      description: "student",
+      url: "https://github.com/Gr3y-PhoNiex",
+      github: "Gr3y-PhoNiex",
+      emoji: "😎",
+      computer: "linux",
+      phone: "android",
+      tags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python",
+        ],
+    },
 ];
 
