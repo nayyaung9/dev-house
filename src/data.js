@@ -118,7 +118,7 @@ module.exports = [
         description: "Full stack Web Developer",
         url: "https://heinthanth.com",
         github: "heinthanth",
-        emoji: "👨<200d>💻",
+        emoji: "😺",
         computer: "linux",
         phone: "android",
         tags: [
