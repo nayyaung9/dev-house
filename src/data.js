@@ -205,5 +205,22 @@ module.exports = [
             "Python",
         ],
     },
+    {
+      name: "Zaw Zaw Win",
+      description: "student at CU Loikaw",
+      url: "https://zawzawwinucsl.imfast.io/",
+      github: "https://github.com/hareom284",
+      emoji: "  👩‍💻",
+      computer: "window10 and linux ",
+      phone: "android",
+      tags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Little Python",
+            "PHP",
+            "C++",
+        ],
+    },
 ];
 
