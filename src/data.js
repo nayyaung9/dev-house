@@ -209,7 +209,7 @@ module.exports = [
        name: "Aung Khant Min",
        description: "love to develop web app",
        url: "https://aung-khant-min.github.io",
-       github: "https://github.com/aung-khant-min",
+       github: "aung-khant-min",
        emoji: ":)",
        computer: "windows",
        phone: "android",
