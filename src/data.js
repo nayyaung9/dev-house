@@ -205,5 +205,21 @@ module.exports = [
             "Python",
         ],
     },
+    {
+       name: "Aung Khant Min",
+       description: "love to develop web app",
+       url: "https://aung-khant-min.github.io",
+       github: "https://github.com/aung-khant-min",
+       emoji: ":)",
+       computer: "windows",
+       phone: "android",
+       tags: [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React",
+            "Frontend"
+       ],
+    },
 ];
 
