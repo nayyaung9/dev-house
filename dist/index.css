@@ -1,24 +1,31 @@
 body {
-  background-color: #232946;
+  background-color: #232946 !important;
   color: #b8c1ec;
 }
 h2 {
   color: #fff !important;
   margin: 40px auto !important;
 }
-.ui.grid {
-  margin: 0;
-  width: 100%;
-}
+
 .label {
   background-color: #b8c1ec !important;
+  margin: 4px !important;
+  background: linear-gradient(145deg, #b8c1ec, #b8c1ec) !important;
+  box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;
 }
 .card {
   background-color: #232946 !important;
+  padding: 10px;
+  border-radius: 20px !important;
+  position: relative;
+  border: 0 !important;
+  background: linear-gradient(145deg, #252c4b, #20253f) !important;
+  box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;
 }
 .card > * {
   color: #b8c1ec !important;
 }
+
 .header {
   padding: 10px 0 10px 0;
 }
@@ -33,7 +40,8 @@ h2 {
   margin-top: 20px !important;
 }
 
-.header, .description {
+.header,
+.description {
   color: #fff !important;
 }
 .meta {
@@ -51,13 +59,26 @@ h2 {
 }
 
 .connectdevelop.icon {
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 .devices_row {
   display: flex;
@@ -68,6 +89,10 @@ h2 {
   border-top: #b8c1ec;
   border-top-width: 1px;
   border-top-style: solid;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .devices {
   width: 70px;
@@ -83,7 +108,9 @@ h2 {
   font-size: 22px;
 }
 
-.footer a, .footer span,.footer b {
+.footer a,
+.footer span,
+.footer b {
   color: #eebbc3;
 }
 
