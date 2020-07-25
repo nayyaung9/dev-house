@@ -206,6 +206,7 @@ module.exports = [
         ],
     },
     {
+
       name: "Zaw Zaw Win",
       description: "student at CU Loikaw",
       url: "https://zawzawwinucsl.imfast.io/",
@@ -221,6 +222,23 @@ module.exports = [
             "PHP",
             "C++",
         ],
+    },
+  {
+       name: "Aung Khant Min",
+       description: "love to develop web app",
+       url: "https://aung-khant-min.github.io",
+       github: "aung-khant-min",
+       emoji: ":)",
+       computer: "windows",
+       phone: "android",
+       tags: [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React",
+            "Frontend"
+       ],
+
     },
 ];
 
