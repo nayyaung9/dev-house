@@ -47,7 +47,7 @@ const UserList = {
                 <img class="right floated mini ui image" src=${profile} style="width: 60px; border-radius: 100%; background: linear-gradient(145deg, #252c4b, #20253f) !important;
                   box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;" />
                 <div class="header">
-                  <h4>${name} &nbsp; ${emoji}</h4>
+                  <h4><u>${name}</u> &nbsp; ${emoji}</h4>
                   <span>${userUrl}<span>
                 </div>
                 <div class="description" style="padding-bottom: 15px;">
