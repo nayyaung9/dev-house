@@ -43,7 +43,7 @@ const UserList = {
         return `
         <div class="col-md-3 col-sm-6" style="margin-bottom: 20px;">
             <div class="card" style="width: 100% !important; height: 100%;">
-              <div class="content" style="height: 35vh;">
+              <div class="content card-body mb-4">
                 <img class="right floated mini ui image" src=${profile} style="width: 60px; border-radius: 100%; background: linear-gradient(145deg, #252c4b, #20253f) !important;
                   box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;" />
                 <div class="header">
@@ -56,7 +56,7 @@ const UserList = {
                 <div class="meta">${renderTags(tags)}</div>
               </div>
 
-              <div class="devices_row">
+              <div class="devices_row card-footer">
                 <div class="device_column">${renderLaptop(computer)}</div>
                 <div class="device_column">${renderPhone(phone)}</div>
                 <div class="device_column">

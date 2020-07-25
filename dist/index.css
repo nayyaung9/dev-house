@@ -12,9 +12,7 @@ h2 {
   background: linear-gradient(145deg, #b8c1ec, #b8c1ec) !important;
   box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;
 }
-.label:hover {
-    box-shadow: inset 5px 5px 10px #1b1f35, inset -5px -5px 10px #2b3357 !important;
-}
+
 .card {
   padding: 20px;
   border-radius: 20px !important;
@@ -50,7 +48,7 @@ h2 {
   color: #fff !important;
 }
 .meta {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .description p {
   font-size: 20px;
@@ -90,8 +88,7 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 10px;
-  padding: 10px;
+  padding: 4px;
   position: absolute;
   left: 0;
   bottom: 0;
