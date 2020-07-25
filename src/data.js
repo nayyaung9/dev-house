@@ -206,6 +206,24 @@ module.exports = [
         ],
     },
     {
+
+      name: "Zaw Zaw Win",
+      description: "student at CU Loikaw",
+      url: "https://zawzawwinucsl.imfast.io/",
+      github: "https://github.com/hareom284",
+      emoji: "  👩‍💻",
+      computer: "window10 and linux ",
+      phone: "android",
+      tags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Little Python",
+            "PHP",
+            "C++",
+        ],
+    },
+  {
        name: "Aung Khant Min",
        description: "love to develop web app",
        url: "https://aung-khant-min.github.io",
@@ -220,6 +238,7 @@ module.exports = [
             "React",
             "Frontend"
        ],
+
     },
 ];
 
