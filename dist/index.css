@@ -1,5 +1,5 @@
 body {
-  background-color: #232946 !important;
+  background-color: #343e70 !important;
   color: #b8c1ec;
 }
 h2 {
@@ -8,19 +8,24 @@ h2 {
 }
 
 .label {
-  background-color: #b8c1ec !important;
   margin: 4px !important;
   background: linear-gradient(145deg, #b8c1ec, #b8c1ec) !important;
   box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;
 }
+.label:hover {
+    box-shadow: inset 5px 5px 10px #1b1f35, inset -5px -5px 10px #2b3357 !important;
+}
 .card {
-  background-color: #232946 !important;
-  padding: 10px;
+  padding: 20px;
   border-radius: 20px !important;
   position: relative;
   border: 0 !important;
-  background: linear-gradient(145deg, #252c4b, #20253f) !important;
-  box-shadow: 5px 5px 10px #1b1f35, -5px -5px 10px #2b3357 !important;
+  background: linear-gradient(145deg, #343e70, #2f3865) !important;
+  box-shadow: 5px 5px 10px #282f54, -5px -5px 10px #475180 !important;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: inset 8px 7px 10px #282f54, inset -8px -8px 10px #475180 !important;
 }
 .card > * {
   color: #b8c1ec !important;
@@ -86,9 +91,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
-  border-top: #b8c1ec;
-  border-top-width: 1px;
-  border-top-style: solid;
+  padding: 10px;
   position: absolute;
   left: 0;
   bottom: 0;
