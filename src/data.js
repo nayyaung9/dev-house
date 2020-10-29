@@ -205,21 +205,24 @@ module.exports = [
             "Python",
         ],
     },
+  {
+    name: 'Wai-Yan',
+    description: 'Villager')',
+    url: 'https://github.com/WaiYanHtun-96',
+    github: 'WaiYanHtun-96',
+    emoji: '🤯',
+    computer: 'Window (VM linux)',
+    phone: 'android',
+    tags: [
+      "Html",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "React",
+    ],
+  },
 ];
-{
-      name: "Wai-Yan",
-      description: "Villager",
-      url: "https://github.com/WaiYanHtun-96",
-      github: "WaiYanHtun-96",
-      emoji: "🤯",
-      computer: "Window (vm linux)",
-      phone: "Vivo",
-      tags: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-        ],
-    },
+
 ];
 
 
